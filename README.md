@@ -30,4 +30,9 @@ Compression SVD (k = nombre de valeurs singulières gardées) :
 
 ## Lancer le projet
 
-pip install numpy matplotlib, puis mettre une photo nommée photo.jpg dans le dossier et lancer un des fichiers etape.
+```bash
+pip install -r requirements.txt
+python etape1.py
+```
+
+Une photo `photo.jpg` est fournie dans le dossier. Pour utiliser ta propre image, remplace ce fichier en gardant le même nom, puis lance les scripts `etape1.py` à `etape5.py`.
